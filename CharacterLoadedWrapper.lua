@@ -1,8 +1,8 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
-local Signal = require(ReplicatedStorage.Utilities.Signal)
-local Connections = require(ReplicatedStorage.Utilities.Connections)
-local WaitForChildOfClassAsync = require(ReplicatedStorage.Utilities.WaitForChildOfClassAsync)
+local Signal = require(ReplicatedStorage.Utilities.Signal) -- Require your own module hierarchy (or other)
+local Connections = require(ReplicatedStorage.Utilities.Connections) -- ^
+local WaitForChildOfClassAsync = require(ReplicatedStorage.Utilities.WaitForChildOfClassAsync) -- ^^
 local CharacterLoadedWrapper = {}
 CharacterLoadedWrapper.__index = CharacterLoadedWrapper
 
